@@ -140,17 +140,6 @@ FILE_UPLOAD_PERMISSIONS = 0o644
 # DATABASES #
 #############
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql_psycopg2",
-        'NAME': os.environ['DB_NAME'],
-        'USER': os.environ['DB_USERNAME'],
-        'PASSWORD': os.environ['DB_PASSWORD'],
-        'HOST': os.environ['DB_HOSTNAME'],
-        'PORT': os.environ['DB_PORT'],
-    }
-}
-
 
 #########
 # PATHS #

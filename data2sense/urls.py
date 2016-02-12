@@ -7,7 +7,7 @@ from django.views.i18n import set_language
 
 from mezzanine.core.views import direct_to_template
 from mezzanine.conf import settings
-
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 admin.autodiscover()
 
@@ -101,3 +101,5 @@ urlpatterns += [
 # pages can use JS, CSS and images.
 handler404 = "mezzanine.core.views.page_not_found"
 handler500 = "mezzanine.core.views.server_error"
+
+urlpatterns += staticfiles_urlpatterns()

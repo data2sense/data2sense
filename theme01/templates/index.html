@@ -10,19 +10,63 @@
 
 {% block main %}
 {% blocktrans %}
-<h2>Congratulations!</h2>
-<p>
-    Welcome to your new Mezzanine powered website.
-    Here are some quick links to get you started:
-</p>
-<ul>
-    <li><a href="/admin/">Log in to the admin interface</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/content-architecture.html">Creating custom page types</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/frequently-asked-questions.html#templates">Modifying HTML templates</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/frequently-asked-questions.html#why-isn-t-the-homepage-a-page-object-i-can-edit-via-the-admin">Changing this homepage</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/frequently-asked-questions.html">Other frequently asked questions</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/configuration.html#default-settings">Full list of settings</a></li>
-    <li><a href="http://mezzanine.jupo.org/docs/deployment.html">Deploying to a production server</a></li>
-</ul>
+
+<section class="carousel" id="main-carousel" style="opacity: 1; display: block;">
+</section>
+
+
+<section class="main-content">
+    <section class="big-bullents">
+        <div class="container">
+            <div class="big-bullets__list">
+                <ul>
+                    <li>
+                        <div class="big-bullets__img">
+                            <a href="bioinformatics/"><img alt="Bioinformatics analysis" src="../static/img/bioinformatics.svg">
+                            </a>
+                        </div>
+                        <h4>
+                            Bioinformatic Analysis
+                        </h4>
+                        <p>
+                           Genomics, Transcriptomics, Databases and lot more
+                        </p>
+                        <a class="big-bullet__btn" href="bioinformatics/">Learn More</a>
+                    </li>
+                    <li>
+                        <div class="big-bullets__img">
+                            <a href="bioinformatics/"><img alt="Agricultural informatics" src="../static/img/bioinformatics.svg">
+                            </a>
+                        </div>
+                        <h4>
+                            Agricultural Informatics
+                        </h4>
+                        <p>
+                           Using computational systems to increase productivity of the farmland.
+                        </p>
+                        <a class="big-bullet__btn" href="bioinformatics/">Learn More</a>
+                    </li>
+                    <li>
+                        <div class="big-bullets__img">
+                            <a href="bioinformatics/"><img alt="Bioinformatics analysis" src="../static/img/bioinformatics.svg">
+                            </a>
+                        </div>
+                        <h4>
+                            Cloud computing
+                        </h4>
+                        <p>
+                           Store, analyze, visualize big data on cloud and web.
+                        </p>
+                        <a class="big-bullet__btn" href="bioinformatics/">Learn More</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+</section>
+
 {% endblocktrans %}
 {% endblock %}

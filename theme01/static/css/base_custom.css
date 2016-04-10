@@ -1,3 +1,44 @@
 footer {
      padding: 0;
  }
+
+.col-md-7 {
+    width: 100%;
+}
+
+.big-bullets__list ul li {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    list-style-type: square;
+}
+
+
+/*!*main block*!*/
+
+
+
+/*.big-bullets .big-bullets__list {*/
+    /*text-align: center;*/
+/*}*/
+
+/*.big-bullets .big-bullets__list li {*/
+    /*display: inline-block;*/
+    /*width: 28%;*/
+    /*vertical-align: top;*/
+    /*margin: 0px 3%;*/
+    /*list-style-type: square;*/
+/*}*/
+
+/*.big-bullets .big-bullets__list .big-bullets__img {*/
+    /*display: inline-block;*/
+    /*max-width: 100px;*/
+    /*margin-bottom: 1.2em;*/
+/*}*/
+
+/*.main-content li {*/
+    /*font-size: 16px;*/
+    /*!*font-size: 1.06667rem;*!*/
+    /*line-height: 1.4375;*/
+    /*!*line-height: 1.6em;*!*/
+/*}*/

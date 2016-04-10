@@ -1,0 +1,146 @@
+#content div#domain ul li p a {
+	color: #525252;
+}
+
+#content div#domain {
+	background: url(../img/palesand.gif);
+    margin-left: 7px;
+	height: 700px;
+	padding: 0;
+	width: 90%;
+}
+
+#content div#domain ul {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: medium;
+    font-style: normal;
+	list-style: none;
+	margin-left: 40px;
+    margin-top: -40px;
+	padding: 0;
+	width: 98%;
+}
+
+#content div#domain ul li {
+	float: left;
+	margin-left: 75px;
+	width: 155px;
+}
+
+#content div#domain ul li.first {
+	margin-left: 0;
+}
+
+#content div#domain ul li span {
+	/*background: url() no-repeat center;*/
+	display: block;
+	height: 0px;
+	margin-top: -10px;
+	width: 281px;
+}
+
+#content div#domain ul li a.link {
+	background: #C8AB65;
+	color: black;
+	display: block;
+	height: 43px;
+	font-size: 19px;
+	line-height: 43px;
+	margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+	width: 281px;
+    border-radius: 0%;
+}
+
+#content div#domain ul li p {
+    color: #C46B29;
+	line-height: 23px;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: -20px;
+    padding-bottom: 5px;
+    /*text-align: left;*/
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#content div {
+	margin: 0 auto;
+	padding: 0 0 40px;
+	width: 950px;
+}
+
+
+#content #welcome-message p {
+    width: 820px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+#carousel {
+    position: relative;
+    margin-top: -20px;
+    padding: 0px;
+    interval: 30000;
+    /*height: 200px;*/
+}
+
+#carousel img {
+    /*height: 190px;*/
+}
+
+#logo img {
+    float: left;
+    height: 220px;
+    width: 220px;
+    position: fixed;
+    top: -3em;
+    left: -2em;
+    z-index: 1000;
+}
+
+#title a {
+    position: fixed;
+    top: 0.17em;
+    left: 2.5em;
+    float: left;
+    padding-left: 60px;
+    font-size: 40px;
+    font-style: italic;
+    color: honeydew;
+    z-index: 1001;
+}
+
+
+.tagline {
+    position: fixed;
+    top: 2.8em;
+    left: 10em;
+    font-size: larger;
+    padding: 10px;
+    margin: 0px;
+    background: #f8e5be;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+
+.collapse {
+    position: fixed;
+    top: 0em;
+    left: 27em; /* position of left of homo button (navbar) */
+    color: #398439;
+}
+
+
+.navbar {
+    margin-top: 0;
+    position: fixed;
+    min-height: 60px;
+    margin-bottom: 20px;
+    border: 1px solid transparent
+}
+

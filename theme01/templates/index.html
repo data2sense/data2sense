@@ -2,16 +2,80 @@
 {% load i18n %}
 
 {% block meta_title %}{% trans "Home" %}{% endblock %}
-{% block title %}{% trans "Home" %}{% endblock %}
+{#{% block title %}{% trans "Home" %}{% endblock %}#}
 
-{% block breadcrumb_menu %}
-<li class="active">{% trans "Home" %}</li>
-{% endblock %}
+{#{% block breadcrumb_menu %}#}
+{#<li class="active">{% trans "Home" %}</li>#}
+{#{% endblock %}#}
 
 {% block main %}
 {% blocktrans %}
 
 <section class="carousel" id="main-carousel" style="opacity: 1; display: block;">
+<div id="carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active carousel-item-one">
+          <div class="carousel-item-container__inside">
+              <div class="carousel-item-container__text">
+                  <p class="heading">Bioinformatics </p>
+                  <p class="subheading">Analysis of Next Generation Sequencing data; Genomics; Transcriptomics; Proteomics and Systems Biology </p>
+              </div>
+              <div class="carousel-item-container__img">
+                <img src="../static/img/carousel-bioinformatics.svg" alt="...">
+              </div>
+          </div>
+          <div class="carousel-caption">
+              <h3>Bioinformatics</h3>
+          </div>
+        </div>
+
+        <div class="item carousel-item-two">
+          <div class="carousel-item-container__inside">
+              <div class="carousel-item-container__text">
+                  <p class="heading">Agricultural informatics </p>
+                  <p class="subheading">Analysis of Next Generation Sequencing data; Genomics; Transcriptomics; Proteomics and Systems Biology </p>
+              </div>
+              <div class="carousel-item-container__img">
+                <img src="../static/img/carousel-bioinformatics.svg" alt="...">
+              </div>
+          </div>
+          <div class="carousel-caption">
+              <h3>Bioinformatics</h3>
+          </div>
+        </div>
+        <div class="item carousel-item-three">
+          <div class="carousel-item-container__inside">
+              <div class="carousel-item-container__text">
+                  <p class="heading">Big Data </p>
+                  <p class="subheading">Analysis of Next Generation Sequencing data; Genomics; Transcriptomics; Proteomics and Systems Biology </p>
+              </div>
+              <div class="carousel-item-container__img">
+                <img src="../static/img/carousel-bioinformatics.svg" alt="...">
+              </div>
+          </div>
+          <div class="carousel-caption">
+              <h3>Bioinformatics</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+</div> <!-- Carousel -->
+
 </section>
 
 
@@ -26,12 +90,13 @@
                             </a>
                         </div>
                         <h4>
-                            Bioinformatic Analysis
+                            Bioinformatic Analyses
                         </h4>
+                        <div class="big-bullets__linesep"></div>
                         <p>
                            Genomics, Transcriptomics, Databases and lot more
                         </p>
-                        <a class="big-bullet__btn" href="bioinformatics/">Learn More</a>
+                        <a class="big-bullets__btn" href="bioinformatics/">Learn More</a>
                     </li>
                     <li>
                         <div class="big-bullets__img">
@@ -41,10 +106,11 @@
                         <h4>
                             Agricultural Informatics
                         </h4>
+                        <div class="big-bullets__linesep"></div>
                         <p>
                            Using computational systems to increase productivity of the farmland.
                         </p>
-                        <a class="big-bullet__btn" href="bioinformatics/">Learn More</a>
+                        <a class="big-bullets__btn" href="bioinformatics/">Learn More</a>
                     </li>
                     <li>
                         <div class="big-bullets__img">
@@ -52,12 +118,13 @@
                             </a>
                         </div>
                         <h4>
-                            Cloud computing
+                            Cloud Computing
                         </h4>
+                        <div class="big-bullets__linesep"></div>
                         <p>
-                           Store, analyze, visualize big data on cloud and web.
+                           Store, analyze, visualize and make sense of big data on cloud and web.
                         </p>
-                        <a class="big-bullet__btn" href="bioinformatics/">Learn More</a>
+                        <a class="big-bullets__btn" href="bioinformatics/">Learn More</a>
                     </li>
                 </ul>
             </div>
@@ -67,6 +134,10 @@
     </section>
 
 </section>
-
+<script>
+	$('.carousel').carousel({
+		interval: 300000
+	})
+</script>
 {% endblocktrans %}
 {% endblock %}

@@ -2,10 +2,70 @@ footer {
      padding: 0;
  }
 
-.col-md-7 {
-    width: 100%;
+body {
+    margin-top: -75px;
 }
 
+.col-md-7 {
+    width: 1200px;
+
+}
+
+/*navigation area*/
+
+.navbar {
+    margin-top: 0px;
+    position: fixed;
+    min-height: 60px;
+    margin-bottom: 20px;
+    border: 0px transparent;
+    padding: 0;
+    background: transparent;
+}
+
+.navbar>.container .navbar-brand {
+    margin-left: 0px;
+    color: maroon;
+    font-size: 50px;
+    font-style: italic;
+    position: fixed;
+    margin-top: 10px;
+}
+
+.navbar>.container .navbar-text {
+    margin-left: 0px;
+    color: rebeccapurple;
+    font-size: 25px;
+    font-style: italic;
+    position: relative;
+    top: 2em;
+    margin-left: 3em;
+
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    position: relative;
+}
+
+.collapse {
+    position: relative;
+    float: right;
+    /*top: 4em;*/
+    /*left: 21em;*/
+    color: #398439;
+}
+
+.navbar-nav>li>a {
+    margin-top: 30px;
+     padding-top: 2px;
+     padding-bottom: 2px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: yellow;
+    font-size: 20px;
+}
 /*Carousel area*/
 
 .carousel-inner .item {
@@ -29,7 +89,7 @@ footer {
     color: #0d87e9;
     /*width: 100px;*/
     height: 75px;
-    padding: 1.5em 0 0 2em;
+    padding: 4em 0 0 2em;
 }
 
 .carousel-item-container__text .subheading {

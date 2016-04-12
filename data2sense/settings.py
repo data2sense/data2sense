@@ -125,7 +125,7 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 SITE_ID = 1
 SITE_TITLE = "Data2sense"
-SITE_TAGLINE = "Data has it all if you look hard enough!"
+SITE_TAGLINE = "Data has it all!!!"
 
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
